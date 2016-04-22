@@ -101,3 +101,5 @@ public function onlineReviewPlugin($businessid=null,$pageno = null)
             header("Access-Control-Allow-Origin: *");
            echo json_encode($result);die;
 }
+
+Test
